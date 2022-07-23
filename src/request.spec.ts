@@ -15,9 +15,9 @@ import { NoapiTokenError, ApiRequestError, HttpRequestError } from './error';
   private gotGetStub: sinon.SinonStub<any>;
 
   private readonly config: TZDBConfig = {
-    apiToken: 'abc123',
+    apiToken: 'HRVMSW4YIL23',
     https: true,
-    host: 'abc.host.com',
+    host: 'http://api.timezonedb.com',
     port: 1234,
     basePath: '/v9.9',
   };
